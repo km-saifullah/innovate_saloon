@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&family=Paprika&family=Playfair+Display:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  line-height: 0.8;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+#navBar {
+  padding: 30px 0;
+  background-color: rgb(221, 168, 240);
+}
+#navBar .navBar__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -moz-column-gap: 0;
+       column-gap: 0;
+  row-gap: 0;
+}
+#navBar .navBar__wrapper .navBar__logo img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#navBar .navBar__wrapper .navBar__menu .navBar__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  row-gap: 0;
+}
+#navBar .navBar__wrapper .navBar__menu .navBar__list li a {
+  color: #eff4fa;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: auto;
+  font-family: "Open Sans", sans-serif;
+  text-transform: capitalize;
+  transition: all linear 0.3s;
+}
+#navBar .navBar__wrapper .navBar__menu .navBar__list li a i {
+  margin-left: 10px;
+}
+#navBar .navBar__wrapper .navBar__menu .navBar__list li a:hover {
+  color: #d6a033;
+}
+#navBar .navBar__wrapper .navBar__btn a {
+  padding: 14px 28px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  line-height: 200%;
+  border: 1px solid #d6a033;
+  transition: all linear 0.3s;
+  display: inline-block;
+}
+#navBar .navBar__wrapper .navBar__btn a:hover {
+  background-color: #d6a033;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,8 @@
+@mixin paragraph($width, $fontSize, $fontWeight, $lineHeight) {
+  width: $width;
+  color: $paragraphColor;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  line-height: $lineHeight;
+  font-family: $paprika;
+}

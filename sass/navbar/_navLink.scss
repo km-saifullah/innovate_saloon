@@ -1,0 +1,9 @@
+@mixin navLink {
+  color: $navLinkColor;
+  font-size: 18px;
+  font-weight: $semiBold;
+  line-height: auto;
+  font-family: $openSans;
+  text-transform: capitalize;
+  transition: all linear 0.3s;
+}

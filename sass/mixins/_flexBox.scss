@@ -1,0 +1,7 @@
+@mixin flexBox($alignItems, $justifyContent, $cGap, $rGap) {
+  display: flex;
+  align-items: $alignItems;
+  justify-content: $justifyContent;
+  column-gap: $cGap;
+  row-gap: $rGap;
+}

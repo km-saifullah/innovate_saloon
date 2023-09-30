@@ -1,0 +1,8 @@
+@mixin heading($width, $fontSize, $fontWeight, $lineHeight) {
+  width: $width;
+  color: $headingColor;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  line-height: $lineHeight;
+  font-family: $openSans;
+}

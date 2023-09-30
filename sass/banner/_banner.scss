@@ -1,0 +1,51 @@
+@import "../common/commonBtn";
+@import "../mixins/flexBox";
+@import "../mixins/heading";
+@import "../mixins/paragraph";
+@import "../mixins/imgStyle";
+
+// Banner Start
+#banner {
+  background-color: #030D11;
+  .banner__wrapper {
+    @include flexBox(center, space-between, 0, 0);
+    .banner__info {
+      padding-bottom: 220px;
+      h1 {
+        @include heading(367px, 64px, $extraBold, normal);
+        color: #f7d38a;
+        font-family: $playfair;
+        padding-top: 200px;
+        text-transform: uppercase;
+      }
+      h2 {
+        @include heading(678px, 64px, $extraBold, normal);
+        color: $bannerWhiteColor;
+        font-family: $openSans;
+        padding: 16px 0 20px 0;
+        text-transform: capitalize;
+      }
+      p {
+        @include paragraph(600px, 22px, $regular, 36px);
+        color: #bebbb4;
+        padding-bottom: 56px;
+      }
+      a {
+        @include commonBtn;
+        &:hover {
+          background-color: $yellow;
+        }
+      }
+    }
+    .banner__img {
+      width: 380px;
+      height: 320px;
+      overflow: hidden;
+      background-color: red;
+      img {
+        @include imgStyle;
+      }
+    }
+  }
+}
+// Banner End
